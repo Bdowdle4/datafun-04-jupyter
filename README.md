@@ -52,3 +52,13 @@ This will keep the package at the version it was installed as
 ```shell
 py -m pip freeze > requirements.txt
 ```
+
+### Start Jupyter
+```shell
+#Example VS Code - in your project folder
+code .
+ni "filename.ipynb" #the file extension must be exactly ".ipynb" to open in jupyter
+#Example Native Terminal - in your project folder
+cd filename ##keep doing this until you reach the correct folder
+jupyter lab #this command will also open in VS Code
+```

@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Visual Studio Code settings and workspace
+.vscode/
+
 # C extensions
 *.so
 
@@ -77,6 +80,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb_meta/
 
 # IPython
 profile_default/
@@ -127,6 +131,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.venv/
 
 # Spyder project settings
 .spyderproject
